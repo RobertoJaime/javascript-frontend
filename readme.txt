@@ -6,6 +6,11 @@ to see pact broker, go to http://localhost:9292/
 
 to run the consumer tests locally:
 npm run test:consumer
+
+to run publish pact files to Pact Brocker running locally, run the publish.sh file via terminal.
+$ ./publish.sh
+
+http://localhost:9292/pacts/provider/GettingStartedOrderApi/consumer/GettingStartedOrderWeb/version/1.0.0
 ************************************************************
 back end - intellij
 run the following file which will start up the application back end...
@@ -13,7 +18,7 @@ run the following file which will start up the application back end...
 
 
 via terminal- run the following command to check the greeting controller is active...
-curl -i http://localhost:8080/v1/greetings/dilip
+curl -i http://localhost:8080/v1/greetings/roberto
 
 
 
@@ -40,4 +45,4 @@ https://github.com/docker/compose/releases
 /home/user/dev/gitprojects/kotlin-udemy/8.1-project-setup/course-catalog-service/src/main/kotlin/com/kotlinspring/controller/GreetingController.kt
 
 
-ssh-keygen -t rsa -b 4096 -C "roberto.jaime30@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "email@mail.com"
